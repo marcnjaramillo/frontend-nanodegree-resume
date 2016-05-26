@@ -26,7 +26,7 @@ h6 {
 
 h1 {
   font-size: 40px;
-  color: #f5a623;
+  color: #7B7B7B;
   line-height: 48px;
   display: inline;
 }
@@ -100,16 +100,16 @@ a {
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: #1199C3;
   display: none;
 }
 
 .orange {
-  background-color: #f5ae23;
+  background: linear-gradient(to bottom right, #21058C, #136F05);
 }
 
 .orange-text {
-  color: #f5ae23;
+  color: #1199C3;
 }
 
 .white-text {
@@ -124,12 +124,12 @@ a {
 }
 
 .dark-gray {
-  background-color: #4a4a4a;
+  background-color: #21058C;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background: linear-gradient(to bottom right, #21058C, #136F05);
 }
 
 .flex-box {
@@ -161,7 +161,11 @@ img {
 }
 
 span {
-  padding: 5px;
+  padding: 10px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: large;
+  color: #1199c3;
 }
 
 #lets-connect {
