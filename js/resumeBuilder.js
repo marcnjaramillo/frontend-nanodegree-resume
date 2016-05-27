@@ -1,3 +1,6 @@
+
+//TODO: add work experience and add projects
+
 var work = {
   "jobs" : [
     {
@@ -16,10 +19,14 @@ var projects = {
       "title" : "Animal Trading Cards",
       "dates" : "April 2016",
       "description" : "This project focused on using CSS to style a sample HTML to resemble a design mock-up.",
-      "images" : []
+      "images" : [
+        "images/trading-card-project.jpg"
+      ]
     }
   ]
 }
+
+//I do not have twitter, so it will be removed later on
 
 var bio = {
   "name" : "Marc Jaramillo",
@@ -171,11 +178,6 @@ projects.display = function() {
 
 projects.display();
 
-//This is where I am currently having issues. Everything displays, but it
-//does not resemble the design sample. The major is next to the date with
-//no spacing rather than below.
-//Is this a CSS issue or is it an issue with my JS?
-
 education.display = function() {
   for (school in education.schools) {
     $("#education").append(HTMLschoolStart);
@@ -216,16 +218,14 @@ $(".education-entry:last").append(formattedURL);
 
 education.display();
 
-
-function inName(name) {
-  name = name.trim().split(" ");
-  console.log(name);
-  name[1] = name[1].toUpperCase();
-  name[0] = name[0].slice(0,1).toUpperCase() + name[0].slice(1).toLowerCase();
-
-  return name[0] +" "+ name[1];
-}
-
 $("#mapDiv").append(googleMap);
 
-$("#main").append(internationalizeButton);
+//function inName(name) {
+//  name = name.trim().split(" ");
+//  console.log(name);
+//  name[1] = name[1].toUpperCase();
+//  name[0] = name[0].slice(0,1).toUpperCase() + name[0].slice(1).toLowerCase();
+
+//  return name[0] +" "+ name[1];
+//}
+//$("#main").append(internationalizeButton);
