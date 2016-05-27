@@ -7,8 +7,8 @@ var work = {
       "dates" : "October 2015 - Present",
       "description" : "Interpret between ASL and English for various community assignments, including medical appointments, mental health appointments, job interviews and trainings, and education. Knowledge of Deaf culture and diverse signing styles (including language fluency and competence) is necessary to ensure full access to communication."
     }
-  ],
-}
+  ]
+};
 
 var projects = {
   "projects" : [
@@ -19,7 +19,7 @@ var projects = {
       "images" : []
     }
   ]
-}
+};
 
 var bio = {
   "name" : "Marc Jaramillo",
@@ -50,15 +50,15 @@ var education = {
     {
     "name" : "Mesa College",
     "location" : "San Diego, CA",
-    "degree" : "N/A",
-    "major" : "N/A",
+    "degree" : "No degree",
+    "major" : "None",
     "dates" : "August 2011 - June 2012",
   },
     {
       "name" : "Imperial Valley College",
       "location" : "Imperial, CA",
-      "degree" : "N/A",
-      "major" : "N/A",
+      "degree" : "No degree",
+      "major" : "None",
       "dates" : "February 2009 - June 2011",
     }
   ],
@@ -70,7 +70,7 @@ var education = {
       "url" : "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
     }
   ]
-}
+};
 
 //I was having trouble getting the information to display properly.
 //The location altered my file such that the browser could not find it.
