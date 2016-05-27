@@ -8,7 +8,7 @@ var work = {
       "description" : "Interpret between ASL and English for various community assignments, including medical appointments, mental health appointments, job interviews and trainings, and education. Knowledge of Deaf culture and diverse signing styles (including language fluency and competence) is necessary to ensure full access to communication."
     }
   ]
-};
+}
 
 var projects = {
   "projects" : [
@@ -19,7 +19,7 @@ var projects = {
       "images" : []
     }
   ]
-};
+}
 
 var bio = {
   "name" : "Marc Jaramillo",
@@ -29,14 +29,14 @@ var bio = {
       "email" : "marcn.jaramillo@gmail.com",
       "github" : "marc.jaramillo",
       "twitter" : "@mjaramillo",
-      "location" : "La Mesa, CA",
+      "location" : "La Mesa, CA"
   },
   "welcomeMessage" : "Thank you for visiting my online resume!",
   "skills" : [
     "HTML", "CSS", "JavaScript", "Excel"
   ],
   "bioPic" : 'images/grad-pic.jpg'
-};
+}
 
 var education = {
   "schools" : [
@@ -45,21 +45,21 @@ var education = {
       "location" : "Greeley, CO",
       "degree" : "BA",
       "major" : "ASL-English Interpreting",
-      "dates" : "August 2014",
+      "dates" : "August 2014"
     },
     {
     "name" : "Mesa College",
     "location" : "San Diego, CA",
     "degree" : "No degree",
     "major" : "None",
-    "dates" : "August 2011 - June 2012",
+    "dates" : "August 2011 - June 2012"
     },
     {
       "name" : "Imperial Valley College",
       "location" : "Imperial, CA",
       "degree" : "No degree",
       "major" : "None",
-      "dates" : "February 2009 - June 2011",
+      "dates" : "February 2009 - June 2011"
     }
   ],
   "onlineCourses" : [
@@ -70,7 +70,7 @@ var education = {
       "url" : "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001"
     }
   ]
-};
+}
 
 //I was having trouble getting the information to display properly.
 //The location altered my file such that the browser could not find it.
