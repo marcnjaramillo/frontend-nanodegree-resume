@@ -46,7 +46,21 @@ var education = {
       "degree" : "Bachelor's",
       "major" : "ASL-English Interpreting",
       "dates" : "August 2014",
-      }
+    },
+    {
+    "name" : "Mesa College",
+    "location" : "San Diego, CA",
+    "degree" : "N/A",
+    "major" : "N/A",
+    "dates" : "August 2011 - June 2012",
+  },
+    {
+      "name" : "Imperial Valley College",
+      "location" : "Imperial, CA",
+      "degree" : "N/A",
+      "major" : "N/A",
+      "dates" : "February 2009 - June 2011",
+    }
   ],
   "onlineCourses" : [
     {
@@ -61,8 +75,7 @@ var education = {
 //I was having trouble getting the information to display properly.
 //The location altered my file such that the browser could not find it.
 //I saw how one of the coaches in the "Tools" webcast video set up the bio section
-//(e.g., bio.contacts.location) and used that to resolve my issue.
-//Open to ideas on any other way to get it to work.
+//(e.g., bio.contacts.location) and I used that to resolve my issue.
 
 bio.display = function() {
 
