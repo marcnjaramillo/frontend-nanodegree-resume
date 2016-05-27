@@ -43,7 +43,7 @@ var education = {
     {
       "name" : "University of Northern Colorado",
       "location" : "Greeley, CO",
-      "degree" : "Bachelor's",
+      "degree" : "BA",
       "major" : "ASL-English Interpreting",
       "dates" : "August 2014",
     },
@@ -53,7 +53,7 @@ var education = {
     "degree" : "No degree",
     "major" : "None",
     "dates" : "August 2011 - June 2012",
-  },
+    },
     {
       "name" : "Imperial Valley College",
       "location" : "Imperial, CA",
