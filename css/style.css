@@ -127,6 +127,14 @@ a {
   background-color: #21058C;
 }
 
+.light-gray {
+  background-color: #525452;
+}
+
+.light-blue {
+  background-color: #3C6E79;
+}
+
 /* TODO: Replace with image later */
 #header {
   background: linear-gradient(to bottom right, #21058C, #136F05);

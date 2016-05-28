@@ -219,6 +219,10 @@ $(".education-entry:last").append(formattedURL);
 education.display();
 
 $("#mapDiv").append(googleMap);
+$("#collapseFour").on('shown.bs.collapse', function(e) {
+    initializeMap();
+    map.fitBounds(mapBounds);
+});
 
 //function inName(name) {
 //  name = name.trim().split(" ");
