@@ -49,7 +49,7 @@ h3 {
 h4 {
   font-weight: bold;
   font-size: 14px;
-  color: #4a4a4a;
+  color: #4A4A4A;
   line-height: 17px;
 }
 
@@ -81,13 +81,14 @@ h5 {
 
 p {
   font-size: 14px;
-  color: #333;
+  color: #EEE;
   line-height: 21px;
 }
 
 a {
-  color: #1199c3;
+  color: #033E03;
   text-decoration: none;
+  font-weight: bold;
   margin-top: 10px;
   display: block;
 }
@@ -95,7 +96,7 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #f3f3f3;
+  color: #F3F3F3;
   line-height: 28px;
 }
 
@@ -127,15 +128,31 @@ a {
   background-color: #21058C;
 }
 
+.panel-title {
+  border-style: outset;
+  border-color: rgba(119, 119, 119, 0.1);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .light-gray {
-  background-color: #525452;
+  background-color: #B4BBC5;
 }
 
-.light-blue {
-  background-color: #3C6E79;
+.open-box {
+  background-color: rgba(0,0,0,0.5);
 }
 
-/* TODO: Replace with image later */
+.center-text {
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  color: gray;
+}
+
+.glyphicon {
+  float: right;
+}
+
 #header {
   background: linear-gradient(to bottom right, #21058C, #136F05);
 }
@@ -184,7 +201,7 @@ span {
 
 @media only screen and (max-width: 1024px) {
   #lets-connect {
-    margin-top: 5%;
+    margin-top: 0;
   }
 }
 
@@ -196,7 +213,7 @@ span {
 
 @media only screen and (max-width: 750px) {
   #lets-connect {
-    margin-top: 10%;
+    margin-top: 0;
   }
   .biopic {
     width: 150px;
@@ -215,7 +232,8 @@ span {
 #mapDiv {
   height: 400px;
   width: 100%;
-  padding-bottom: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 @media only screen and (min-width: 750px) {
